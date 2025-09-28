@@ -14,7 +14,7 @@ int main()
 {
     i = 0;
     error = 0;
-    printf(" Enter an arithmetic expression without whitespace:  "); // Eg: a+a*a
+    printf(" Enter an arithmetic expression without whitespace:");
     scanf("%[^\n]", input);
     E();
     if (strlen(input) == i && error == 0)
